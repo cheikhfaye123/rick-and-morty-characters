@@ -48,6 +48,9 @@ table {
   display: flex;
   width: 100%;
   background-color: #60fbbf;
+  top:0;
+  z-index: 1000;
+  padding: 10px 0;
 }
 
 .pagination {
@@ -75,7 +78,40 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
-
+.charachter-item{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+text-align: left;
+border: 4px;
+transition: transform 0.2s ease;
+}
+.character-item:hover{
+  transform: scale(1.05s);
+}
+.character-item img{
+  width:100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px 4px 0 0;
+}
+character-item h3{
+  margin: 10px 0;
+  font-size: 18px;
+  
+ 
+}
+character-item p{
+  margin: 5px 0;
+  font-size: 14px;
+}
 
 
